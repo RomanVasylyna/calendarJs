@@ -1,0 +1,109 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.container{
+min-height: 500px;
+}
+
+a{
+text-decoration: none;
+font-size: 2rem;
+color: #fff;
+}
+
+ul{
+font-size: 1.5rem;
+color: #fff;
+}
+
+li{
+list-style-type: none;
+}
+
+table{
+border: 0px;
+}
+
+td{
+padding: 5px 10px;
+font-size: 1.5rem;
+}
+
+.calendar{
+position: relative;
+left: 350px;
+}
+
+.bg-info{
+min-height: 160px;
+}
+
+.prev{
+cursor:pointer;
+}
+
+.next{
+cursor:pointer;
+}
+
+/* Phone */
+@media (min-width: 576px) {
+  .calendar{
+  position: relative;
+  left: 78px;
+  }
+  td{
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  }
+  h4{
+  font-size: 1.2rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .calendar{
+  position: relative;
+  left: 150px;
+  }
+  td{
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  }
+  h4{
+  font-size: 1.3rem;
+  }
+}
+
+/* Big Screen*/
+@media (min-width: 992px) {
+  .calendar{
+  position: relative;
+  left: 280px;
+  }
+  td{
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  }
+  h4{
+  font-size: 1.4rem;
+  }
+}
+
+/* Extra Large Screen*/
+@media (min-width: 1200px) {
+  .calendar{
+  position: relative;
+  left: 350px;
+  }
+  td{
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  }
+  h4{
+  font-size: 1.5rem;
+  }
+}
